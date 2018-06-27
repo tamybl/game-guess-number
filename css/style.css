@@ -1,0 +1,99 @@
+body {
+    background: #ccc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../img/background_purple.png) repeat;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container-game {
+    width: 40vw;
+    min-width: 300px;
+    min-height: 300px;
+    background: #e8e8e8;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.container-game #number-player {
+    height: 25px;
+    vertical-align: top;
+    background: #e0e0e0;
+    border: 2px solid #b37792;
+    border-radius: 6px;
+    outline: none;
+    font-weight: 700;
+    color: #3e3e3e;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-game h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #c3417c;
+    font-size: calc(9px + 0.9vw);
+}
+
+#send-try, #reset {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: blueviolet;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    padding: 8px 10px;
+    text-transform: uppercase;
+}
+
+#reset {
+    display: block;
+    margin: 1em auto;
+}
+
+div#showtry {
+    display: flex;
+}
+div#showtry span.numbers {
+    background: transparent;
+}
+div#showtry span {
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 50px;
+    background: #e1a1be;
+    box-sizing: border-box;
+    margin: 0 2px;
+    min-width: 26px;
+    min-height: 26px;
+    text-align: center;
+}
+
+#message p:first-child {
+    color: #fff;
+    padding: 4px;
+    width: 70%;
+    margin: 1em auto;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#message .green {
+    background: green;
+}
+
+#message .red {
+    background: red;
+}
+
+.container-game .display {
+    text-align: left;
+}
